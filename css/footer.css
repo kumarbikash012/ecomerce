@@ -1,0 +1,114 @@
+.aap {
+
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+.aap1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-top: 40px;
+
+
+
+}
+
+.aap1.aap2 {
+    font-size: 20px;
+
+
+}
+
+.aap1 .app3 {
+    outline: none;
+
+    background-color: transparent;
+    color: #ccc;
+    border: 0;
+}
+
+.aap1 .app4 {
+    outline: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+
+}
+
+.col a {
+    text-decoration: none;
+
+    color: #420404;
+    padding-top: 10px;
+
+
+
+
+
+}
+
+a:hover {
+    color: rgba(243, 6, 6, 0.979);
+}
+
+.footer {
+    background-color: rgb(2, 94, 89);
+    width: 100%;
+
+
+    padding: 70px 0 0 0;
+
+    position: relative;
+    bottom: 0;
+}
+
+.app6 {
+    padding: 40px 200px 70px 30px;
+
+
+    border-top-left-radius: 125px;
+    background-image: linear-gradient(to left,rgb(122 211 197), #17ceb6, rgb(20 126 190));;
+    /* background-color: #031f30; */
+    text-align: center;
+    position: relative;
+
+}
+
+.icons {
+    padding-top: 10px;
+
+}
+
+.icons .app7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 40px;
+    background-color: rgb(136, 199, 196);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.app8 {
+    width: 90%;
+    border: 0;
+    padding: 20px;
+    margin-left: 70px;
+    border-bottom: 1px solid #100404;
+}
+
+.copyright {
+    text-align: center;
+    color: #000000;
+}
+
+.app9 {
+    padding: 0 0 0 0;
+}   

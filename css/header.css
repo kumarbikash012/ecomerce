@@ -1,0 +1,79 @@
+
+
+.bcolor{
+    background-image: linear-gradient(to left,rgb(122 211 197), #17ceb6, rgb(20 126 190));;
+    position:sticky;
+}
+
+.ncolor{
+    background-image: linear-gradient( rgb(20 126 190), #17ceb6, rgb(122 211 197));
+}
+
+.sm{
+    background: linear-gradient(to left, #7c2f02, rgb(21, 2, 80));;
+    -webkit-background-clip:text ;
+    color: transparent;
+    font-size: 2rem;
+    font-weight: 700px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.search{
+  /* padding:10px; */
+    height: 50px;
+    width: 100%;
+    border-bottom-left-radius:20px
+    
+    
+}
+
+/* @media (min-width:300) and (max-width:700) {
+ .nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0;
+    position: relative;
+  }
+}
+  .ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  .ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #780315;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  #design::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #780315;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .ul:hover::after {
+    background: #780315;
+  }
+  
+  .ul li:hover::after {
+    width: 100%;
+  } */
+    

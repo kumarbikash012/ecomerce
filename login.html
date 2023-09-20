@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SM-Mart-home</title>
+    <style>
+        *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+        .container{
+     margin-top: 2%;
+    background:linear-gradient(45deg, rgb(31, 75, 198), lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+    margin-bottom: 2%;
+
+}
+
+.container .heading{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box{
+    margin-top: 2%;
+    background:linear-gradient(45deg, rgb(219, 221, 226), lightgreen);
+    padding:50px 20%;
+    padding-bottom: 100px;
+    margin-bottom: 2%;
+}
+  </style>
+</head>
+<body style="background-color: rgb(127, 217, 217);">
+    <div id="header"> </div>
+    <div class="container">
+        <h1 class="heading">Log In</h1>
+                <div class="box">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" placeholder="Enter your @e-mail" id="email" name="email" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" placeholder="Enter your Password" class="form-control" id="password" name="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <input type="button" class="btn btn-primary" value="Login" onclick="checkLogin()">
+                  </form>
+            </div>
+           
+         
+        </div>
+    
+    </div>
+
+<div id="footer"> </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <script>
+      function checkLogin() {
+          // Geting the values entered by the user
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+
+          // Checking if the email and password match the predefined values
+          if (email === "admin@admin.com" && password === "123456") {
+              alert("Login successful");
+          } else {
+              alert("Incorrect email or password");
+          }
+      }
+  </script>
+<script>
+ $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+
+</script>
+</body>
+</html>
